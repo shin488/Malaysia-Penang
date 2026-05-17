@@ -11,7 +11,7 @@ const galleryItems = [
   { label: "ペナンヒルからの夜景", image: "https://images.pexels.com/photos/31019129/pexels-photo-31019129.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" },
   { label: "ストリートフードの屋台", image: "https://images.pexels.com/photos/32541938/pexels-photo-32541938.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" },
   { label: "ペナン・ストランドの桟橋", image: "https://images.pexels.com/photos/1465993/pexels-photo-1465993.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" },
-  { label: "モスクと寺院の調和", image: "https://images.pexels.com/photos/4685799/pexels-photo-4685799.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" },
+  { label: "モスクと寺院の調和", image: "https://images.pexels.com/photos/35776783/pexels-photo-35776783.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" },
   { label: "熱帯の夕暮れ", image: "https://images.pexels.com/photos/34017118/pexels-photo-34017118.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" },
   { label: "バトゥ・フェリンギの海", image: "https://images.pexels.com/photos/29389365/pexels-photo-29389365.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" },
 ];

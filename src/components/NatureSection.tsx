@@ -19,7 +19,7 @@ const natureItems = [
     title: "ペナン国立公園",
     subtitle: "Penang National Park",
     desc: "マレーシア最小の国立公園だが、隠れたビーチや原生林のトレッキング、イルカウォッチングまで楽しめる。のんびりハイキングに最適。",
-    image: "https://images.pexels.com/photos/29355304/pexels-photo-29355304.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    image: "https://images.pexels.com/photos/32066576/pexels-photo-32066576.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
   },
   {
     title: "サンセットクルーズ",
