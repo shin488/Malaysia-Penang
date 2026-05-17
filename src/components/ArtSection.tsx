@@ -1,77 +1,94 @@
+"use client";
+
+import FadeInView from "./FadeInView";
+
+const arts = [
+  {
+    title: "Children on a Bicycle",
+    desc: "ペナンで最も有名な壁画。自転車に乗った子どもたちの生き生きとした表情が、路地に命を吹き込む。",
+    image: "https://images.pexels.com/photos/30867351/pexels-photo-30867351.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    accent: "bg-penang-yellow/10 border-penang-yellow/20",
+  },
+  {
+    title: "Boy on a Chair",
+    desc: "古いショップハウスの壁に描かれた少年。椅子に立ち、何かを見つめる姿が不思議な物語を感じさせる。",
+    image: "https://images.pexels.com/photos/12587163/pexels-photo-12587163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    accent: "bg-penang-coral/10 border-penang-coral/20",
+  },
+  {
+    title: "Wire Mural & Hidden Art",
+    desc: "壁画だけでなく、鉄線アートも街の至る所に。路地裏の細道を入ると、思いがけないアートに出会える。",
+    image: "https://images.pexels.com/photos/35222171/pexels-photo-35222171.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    accent: "bg-penang-green/10 border-penang-green/20",
+  },
+];
+
 export default function ArtSection() {
   return (
-    <section id="art" className="py-20 md:py-32 bg-penang-cream relative overflow-hidden">
-      <div className="palm-silhouette top-5 right-5 opacity-[0.025] rotate-45 text-[10rem]">🌺</div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+    <section id="art" className="relative py-24 md:py-36 bg-penang-cream overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(245,200,66,0.05)_0%,transparent_50%)]" />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <FadeInView className="text-center mb-16">
           <span className="text-penang-coral text-sm tracking-[0.2em] uppercase font-medium">
             🎨 Street Art
           </span>
-          <h2 className="section-title mt-3 mb-4">
-            街全体がギャラリー
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-penang-dark mt-3 mb-4">
+            街全体が
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-penang-coral to-penang-yellow">
+              {" "}ギャラリー
+            </span>
           </h2>
-          <p className="section-subtitle">
+          <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
             ジョージタウンの路地を歩けば、そこは屋根のない美術館。
             リトアニア人アーティスト、アーネスト・ザカレヴィッチの壁画をきっかけに、
             街中がキャンバスに変わりました。
           </p>
-        </div>
+        </FadeInView>
 
-        <div className="grid md:grid-cols-3 gap-6">
-          {[
-            {
-              title: "Children on a Bicycle",
-              desc: "ペナンで最も有名な壁画。自転車に乗った子どもたちの生き生きとした表情が、路地に命を吹き込む。",
-              image: "https://images.pexels.com/photos/30867351/pexels-photo-30867351.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-            },
-            {
-              title: "Boy on a Chair",
-              desc: "古いショップハウスの壁に描かれた少年。椅子に立ち、何かを見つめる姿が不思議な物語を感じさせる。",
-              image: "https://images.pexels.com/photos/12587163/pexels-photo-12587163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-            },
-            {
-              title: "Wire Mural & Hidden Art",
-              desc: "壁画だけでなく、鉄線アートも街の至る所に。路地裏の細道を入ると、思いがけないアートに出会える。",
-              image: "https://images.pexels.com/photos/35222171/pexels-photo-35222171.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-            },
-          ].map((art) => (
-            <div key={art.title} className="card">
-              <div className="h-56 relative overflow-hidden">
-                <img
-                  src={art.image}
-                  alt={art.title}
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
+        <div className="grid md:grid-cols-3 gap-8">
+          {arts.map((art, i) => (
+            <FadeInView key={art.title} delay={i * 100}>
+              <div className={`rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-500 border ${art.accent}`}>
+                <div className="h-64 relative overflow-hidden">
+                  <img
+                    src={art.image}
+                    alt={art.title}
+                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-6 bg-white/80 backdrop-blur-sm">
+                  <h3 className="text-lg font-bold text-penang-dark mb-3">
+                    {art.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">
+                    {art.desc}
+                  </p>
+                </div>
               </div>
-              <div className="p-6">
-                <h3 className="text-lg font-bold text-penang-dark mb-2">
-                  {art.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  {art.desc}
-                </p>
-              </div>
-            </div>
+            </FadeInView>
           ))}
         </div>
 
-        <div className="mt-12 bg-white rounded-2xl p-6 md:p-10 shadow-md">
-          <div className="flex flex-col md:flex-row gap-6 items-start">
-            <div className="flex-1">
-              <h4 className="font-bold text-penang-dark mb-2">
-                🗺️ アート散策マップ
-              </h4>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                ジョージタウンはコンパクトなので徒歩で回れます。おすすめは朝早く、
-                観光客が少ない時間帯。路地裏を迷いながら、自分のお気に入りの壁画を探すのが醍醐味です。
-              </p>
-            </div>
-            <div className="bg-penang-coral/10 rounded-xl px-5 py-3 text-sm text-penang-coral font-medium whitespace-nowrap">
-              所要時間: 2-3時間
+        <FadeInView delay={200}>
+          <div className="mt-12 bg-white rounded-2xl p-6 md:p-8 shadow-md border border-gray-100">
+            <div className="flex flex-col md:flex-row gap-6 items-start">
+              <div className="flex-1">
+                <h4 className="font-bold text-penang-dark mb-2 flex items-center gap-2">
+                  <span className="text-xl">🗺️</span>
+                  アート散策マップ
+                </h4>
+                <p className="text-sm text-gray-500 leading-relaxed">
+                  ジョージタウンはコンパクトなので徒歩で回れます。おすすめは朝早く、
+                  観光客が少ない時間帯。路地裏を迷いながら、自分のお気に入りの壁画を探すのが醍醐味です。
+                </p>
+              </div>
+              <div className="bg-penang-coral/10 rounded-xl px-5 py-3 text-sm text-penang-coral font-medium whitespace-nowrap shrink-0">
+                所要時間: 2-3時間
+              </div>
             </div>
           </div>
-        </div>
+        </FadeInView>
       </div>
     </section>
   );
