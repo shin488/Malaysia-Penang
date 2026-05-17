@@ -12,7 +12,7 @@ const foods = [
     subtitle: "炒粿条",
     description:
       "ペナンNo.1の屋台料理。平打ち米粉麺をエビ、ソーセージ、もやしと共に強火で炒めた黒醤油風味の一品。炭火の香りがたまらない。",
-    image: pexelUrl(32541938),
+    image: pexelUrl(8983416),
   },
   {
     name: "Assam Laksa",
