@@ -4,14 +4,15 @@ export default function CultureSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-penang-coral text-sm tracking-[0.2em] uppercase font-medium">
-            Culture & History
+            🇲🇾 Culture & History
           </span>
           <h2 className="section-title mt-3 mb-4">
-            三つの文化が織りなす
+            <span className="text-penang-coral">Muhibah</span> — 三つの文化が織りなす
             <br />
             色とりどりの街並み
           </h2>
           <p className="section-subtitle">
+            <em className="text-penang-green not-italic">&ldquo;Muhibah&rdquo;</em> とはマレー語で「調和・友好」の意。
             マレー、中国、インド — 三つの大きな文化がペナンという島で美しく交差します。
             寺院、モスク、教会が同じ通りに並ぶ、多文化共生の奇跡。
           </p>

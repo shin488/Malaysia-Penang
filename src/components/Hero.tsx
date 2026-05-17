@@ -7,6 +7,10 @@ const floatingEmojis = [
   { emoji: "🥥", className: "top-[15%] left-[15%] animate-wiggle text-2xl md:text-3xl" },
   { emoji: "☀️", className: "top-[5%] right-[15%] animate-pulse-soft text-3xl md:text-5xl" },
   { emoji: "🦐", className: "bottom-[35%] right-[12%] animate-drift text-2xl md:text-3xl" },
+  { emoji: "🐒", className: "top-[45%] left-[2%] animate-float-slow text-3xl md:text-4xl" },
+  { emoji: "🦋", className: "bottom-[40%] left-[20%] animate-drift text-2xl md:text-3xl" },
+  { emoji: "🦎", className: "top-[8%] left-[25%] animate-float text-xl md:text-2xl" },
+  { emoji: "🏝️", className: "bottom-[8%] right-[18%] animate-float-slow text-3xl md:text-5xl" },
 ];
 
 export default function Hero() {
@@ -15,15 +19,15 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center scale-105"
         style={{
-          backgroundImage: "url(https://images.unsplash.com/photo-1747493397711-2230a016c852?w=1920&h=1080&fit=crop&auto=format)",
+          backgroundImage: "url(https://images.pexels.com/photos/11789655/pexels-photo-11789655.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)",
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-br from-penang-blue/70 via-penang-green/60 to-penang-yellow/50" />
       <div
-        className="absolute inset-0 opacity-[0.07]"
+        className="absolute inset-0 opacity-[0.08]"
         style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5L35 20H50L38 30L42 45L30 35L18 45L22 30L10 20H25Z' fill='white' opacity='0.3'/%3E%3C/svg%3E")`,
-          backgroundSize: "60px 60px",
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 5 Q50 15 55 25 Q65 20 70 30 Q60 40 50 35 Q55 50 45 55 Q40 45 35 55 Q25 50 30 35 Q20 40 10 30 Q15 20 25 25 Q30 15 40 5Z' fill='white' opacity='0.4'/%3E%3Ccircle cx='40' cy='30' r='3' fill='white' opacity='0.3'/%3E%3Ccircle cx='55' cy='45' r='2' fill='white' opacity='0.3'/%3E%3Ccircle cx='25' cy='45' r='2' fill='white' opacity='0.3'/%3E%3C/svg%3E")`,
+          backgroundSize: "120px 120px",
         }}
       />
 
@@ -42,7 +46,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm rounded-full px-5 py-1.5 mb-8 border border-white/20">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse-soft" />
             <span className="text-white/80 text-xs md:text-sm tracking-wider font-medium uppercase">
-              Welcome to Paradise
+              🇲🇾 Selamat Datang ✦ Welcome to Paradise
             </span>
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-display font-bold text-white mb-4 leading-tight drop-shadow-lg">

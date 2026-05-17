@@ -87,6 +87,39 @@
   .resort-icon {
     @apply inline-block animate-float;
   }
+
+  .palm-silhouette {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.04;
+    font-size: 15rem;
+    line-height: 1;
+    user-select: none;
+  }
+
+  .malay-flag-bar {
+    @apply h-1 w-full;
+    background: linear-gradient(90deg, #cc0000 0%, #cc0000 33%, #ffffff 33%, #ffffff 66%, #0032a0 66%, #0032a0 100%);
+  }
+
+  .batik-border {
+    position: relative;
+  }
+  .batik-border::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 10%;
+    right: 10%;
+    height: 4px;
+    border-radius: 2px;
+    background: radial-gradient(circle at 20% 50%, #f5c842 2px, transparent 2px),
+                radial-gradient(circle at 40% 50%, #ff6b6b 2px, transparent 2px),
+                radial-gradient(circle at 60% 50%, #2d8a4e 2px, transparent 2px),
+                radial-gradient(circle at 80% 50%, #f5c842 2px, transparent 2px);
+    background-size: 40px 4px;
+    background-repeat: repeat-x;
+  }
 }
 
 @layer utilities {

@@ -59,12 +59,14 @@ export default function TipsSection() {
   return (
     <section
       id="tips"
-      className="py-20 md:py-32 bg-gradient-to-br from-penang-dark via-slate-800 to-penang-dark text-white"
+      className="py-20 md:py-32 bg-gradient-to-br from-penang-dark via-slate-800 to-penang-dark text-white relative overflow-hidden"
     >
+      <div className="palm-silhouette -top-20 -left-20 opacity-[0.02] text-[20rem]">🌴</div>
+      <div className="palm-silhouette -bottom-20 -right-20 opacity-[0.02] text-[20rem]">🌺</div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-penang-yellow text-sm tracking-[0.2em] uppercase font-medium">
-            Travel Tips
+            🇲🇾 Travel Tips — Panduan Perjalanan
           </span>
           <h2 className="text-4xl md:text-5xl font-display font-bold mt-3 mb-4 text-balance">
             旅の前に知っておきたいこと

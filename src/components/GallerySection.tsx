@@ -12,17 +12,20 @@ const galleryItems = [
 
 export default function GallerySection() {
   return (
-    <section id="gallery" className="py-20 md:py-32 bg-white">
+    <section id="gallery" className="py-20 md:py-32 bg-white relative overflow-hidden">
+      <div className="palm-silhouette -bottom-10 -left-10 opacity-[0.02] text-[12rem]">🌴</div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-penang-coral text-sm tracking-[0.2em] uppercase font-medium">
-            Gallery
+            📸 Gallery — Galeri
           </span>
           <h2 className="section-title mt-3 mb-4">
             ペナンの風景
           </h2>
           <p className="section-subtitle">
             言葉よりも雄弁に、ペナンの魅力を色で感じてください。
+            <br />
+            <span className="text-gray-400 text-sm">Cantiknya! — 美しい!</span>
           </p>
         </div>
 

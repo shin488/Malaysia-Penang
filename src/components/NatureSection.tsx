@@ -1,10 +1,13 @@
 export default function NatureSection() {
   return (
-    <section id="nature" className="py-20 md:py-32 bg-penang-cream">
+    <section id="nature" className="py-20 md:py-32 bg-penang-cream relative overflow-hidden">
+      <div className="palm-silhouette top-10 left-5 opacity-[0.03]">🌴</div>
+      <div className="palm-silhouette bottom-10 right-5 opacity-[0.03] rotate-12">🌴</div>
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-penang-green/30 via-penang-yellow/30 to-penang-blue/30" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-penang-coral text-sm tracking-[0.2em] uppercase font-medium">
-            Nature & Beaches
+            🌿 Nature & Beaches
           </span>
           <h2 className="section-title mt-3 mb-4">
             都市の喧騒を忘れる

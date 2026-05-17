@@ -1,10 +1,11 @@
 export default function ArtSection() {
   return (
-    <section id="art" className="py-20 md:py-32 bg-penang-cream">
+    <section id="art" className="py-20 md:py-32 bg-penang-cream relative overflow-hidden">
+      <div className="palm-silhouette top-5 right-5 opacity-[0.025] rotate-45 text-[10rem]">🌺</div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-penang-coral text-sm tracking-[0.2em] uppercase font-medium">
-            Street Art
+            🎨 Street Art
           </span>
           <h2 className="section-title mt-3 mb-4">
             街全体がギャラリー

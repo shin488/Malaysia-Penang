@@ -49,17 +49,24 @@ const foods = [
 
 export default function FoodSection() {
   return (
-    <section id="food" className="py-20 md:py-32 bg-white">
+    <section id="food" className="py-20 md:py-32 bg-white relative overflow-hidden">
+      <div className="palm-silhouette top-10 right-10 opacity-[0.02]">🍜</div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-penang-coral text-sm tracking-[0.2em] uppercase font-medium">
-            Food
+            🍜 Food — Makanan
           </span>
           <h2 className="section-title mt-3 mb-4">
             誰もが認める
             <br />
             東南アジア食の頂点
           </h2>
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <span className="bg-penang-yellow/20 text-penang-yellow-dark text-xs font-semibold px-3 py-1 rounded-full border border-penang-yellow/30">
+              🇲🇾 Selamat Makan!
+            </span>
+            <span className="text-gray-400 text-xs">— マレー語で「いただきます」</span>
+          </div>
           <p className="section-subtitle">
             
             ペナンは &ldquo;東南アジアの食の都&rdquo; と呼ばれ、世界中の美食家を魅了してやみません。

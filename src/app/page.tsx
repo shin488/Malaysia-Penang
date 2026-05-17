@@ -14,10 +14,15 @@ export default function Home() {
       <Hero />
       <WaveDivider />
       <AboutSection />
+      <WaveDivider flip />
       <FoodSection />
+      <WaveDivider />
       <ArtSection />
+      <WaveDivider flip />
       <CultureSection />
+      <WaveDivider />
       <NatureSection />
+      <WaveDivider flip />
       <GallerySection />
       <TipsSection />
     </>

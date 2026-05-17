@@ -30,16 +30,20 @@ export default function Navbar() {
           : "bg-gradient-to-b from-black/20 to-transparent"
       }`}
     >
+      <div className="h-0.5 w-full bg-gradient-to-r from-[#cc0000] via-white to-[#0032a0] opacity-60" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <a
             href="#"
-            className={`text-xl md:text-2xl font-display font-bold tracking-tight transition-colors ${
+            className={`text-xl md:text-2xl font-display font-bold tracking-tight transition-colors flex items-center gap-2 ${
               scrolled ? "" : "text-white"
             }`}
           >
-            <span className={scrolled ? "text-penang-coral" : "text-white"}>Penang</span>
-            <span className={scrolled ? "text-penang-dark" : "text-white/80"}> Island</span>
+            <span className="text-sm leading-none">{scrolled ? "🇲🇾" : "🇲🇾"}</span>
+            <span>
+              <span className={scrolled ? "text-penang-coral" : "text-white"}>Penang</span>
+              <span className={scrolled ? "text-penang-dark" : "text-white/80"}> Island</span>
+            </span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">

@@ -16,7 +16,7 @@ export default function AboutSection() {
             <div className="inline-flex items-center gap-2 bg-penang-coral/10 rounded-full px-4 py-1.5 mb-4">
               <span className="text-penang-coral">🏝️</span>
               <span className="text-penang-coral text-xs tracking-[0.2em] uppercase font-semibold">
-                About The Island
+                🇲🇾 About Pulau Pinang
               </span>
             </div>
             <h2 className="section-title mt-3 mb-6">
@@ -43,12 +43,12 @@ export default function AboutSection() {
             </div>
           </div>
           <div className="relative rounded-2xl overflow-hidden min-h-[350px]">
-            <div
-              className="absolute inset-0 bg-cover bg-center"
-              style={{
-                backgroundImage: "url(https://images.unsplash.com/photo-1747493397738-56bfe5aa1d7b?w=800&h=900&fit=crop&auto=format)",
-              }}
-            />
+              <div
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: "url(https://images.pexels.com/photos/34017118/pexels-photo-34017118.jpeg?auto=compress&cs=tinysrgb&w=800&h=900&fit=crop)",
+                }}
+              />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
             <div className="relative z-10 grid grid-cols-2 gap-4 p-6 absolute bottom-0 left-0 right-0">
               <div className="space-y-3">
