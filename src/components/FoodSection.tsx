@@ -26,7 +26,7 @@ const foods = [
     subtitle: "ナシカンダー",
     description:
       "インド系マレーシア料理の金字塔。ご飯にカレーをかけ、好みのおかずを選ぶスタイル。ペナンには名店がひしめく。",
-    image: pexelUrl(27088188),
+    image: pexelUrl(17661072),
   },
   {
     name: "Cendol",
