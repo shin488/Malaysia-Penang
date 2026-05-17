@@ -11,42 +11,48 @@ const foods = [
     name: "Char Koay Teow",
     subtitle: "炒粿条",
     description:
-      "ペナンNo.1の屋台料理。平打ち米粉麺をエビ、ソーセージ、もやしと共に強火で炒めた黒醤油風味の一品。炭火の香りがたまらない。",
+      "ペナンNo.1の屋台料理。平打ち米粉麺をエビ、ソーセージ、もやしと共に強火で炒めた黒醤油風味の一品。地元民が並ぶ名店は Lorong Selamat と Siam Road。",
+    place: "Lorong Selamat / Siam Road",
     image: pexelUrl(8983416),
   },
   {
     name: "Assam Laksa",
     subtitle: "亚参叻沙",
     description:
-      "サバの出汁とタマリンドの酸味が効いた、ペナン発祥の魚介麺。パイナップル、ミント、タマネギの爽やかなトッピングが絶妙。",
+      "サバの出汁とタマリンドの酸味が効いた、ペナン発祥の魚介麺。パイナップル、ミント、タマネギの爽やかなトッピングが絶妙。本場は Air Itam の Pasar 内。",
+    place: "Air Itam Laksa (Pasar Air Itam)",
     image: pexelUrl(9772442),
   },
   {
     name: "Nasi Kandar",
     subtitle: "ナシカンダー",
     description:
-      "インド系マレーシア料理の金字塔。ご飯にカレーをかけ、好みのおかずを選ぶスタイル。ペナンには名店がひしめく。",
+      "インド系マレーシア料理の金字塔。ご飯にカレーをかけ、好みのおかずを選ぶスタイル。1907年創業の Hameediyah と Line Clear がペナン二大巨塔。",
+    place: "Line Clear / Hameediyah",
     image: pexelUrl(17661072),
   },
   {
     name: "Cendol",
     subtitle: "煎蕊",
     description:
-      "ペナンの暑さにぴったりのスイーツ。パンダン風味の緑ゼリーにココナッツミルクと黒蜜をかけて。一口で幸せになる。",
+      "ペナンの暑さにぴったりのスイーツ。パンダン風味の緑ゼリーにココナッツミルクと黒蜜をかけて。Lebuh Keng Kwee の Penang Road Famous Cendol が行列必至。",
+    place: "Lebuh Keng Kwee",
     image: pexelUrl(8306187),
   },
   {
     name: "Wantan Mee",
     subtitle: "云吞面",
     description:
-      "ちぢれ麺に醤油ベースのタレ、チャーシューとワンタンをのせた中国系ペナン料理。朝食の定番。",
+      "ちぢれ麺に醤油ベースのタレ、チャーシューとワンタンをのせた中国系ペナン料理。朝食の定番。Macallum Street の Uncle Seng が地元で大人気。",
+    place: "Macallum Street (Uncle Seng)",
     image: pexelUrl(37121509),
   },
   {
     name: "Roti Canai",
     subtitle: "ロティチャナイ",
     description:
-      "インド系の平焼きパン。外はパリッと中はモチモチ。カレーディップでいただく朝食の王様。作る工程も見もの。",
+      "インド系の平焼きパン。外はパリッと中はモチモチ。カレーディップでいただく朝食の王様。Transfer Road の Roti Canai がペナン最古参。",
+    place: "Transfer Road",
     image: pexelUrl(37555450),
   },
 ];
@@ -93,16 +99,22 @@ export default function FoodSection() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <div className="p-6">
-                  <div className="flex items-start justify-between mb-3">
-                    <div>
-                      <h3 className="text-lg font-bold text-penang-dark">
-                        {food.name}
-                      </h3>
-                      <span className="text-sm text-gray-400">
-                        {food.subtitle}
-                      </span>
+                    <div className="mb-3">
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="text-lg font-bold text-penang-dark">
+                          {food.name}
+                        </h3>
+                        <span className="text-sm text-gray-400">
+                          {food.subtitle}
+                        </span>
+                      </div>
                     </div>
-                    <span className="text-lg opacity-30 group-hover:opacity-100 transition-opacity">🍜</span>
+                    {food.place && (
+                      <span className="inline-block mt-1.5 text-[10px] bg-penang-yellow/10 text-penang-yellow-dark px-2 py-0.5 rounded-full border border-penang-yellow/20 font-medium">
+                        📍 {food.place}
+                      </span>
+                    )}
                   </div>
                   <p className="text-sm text-gray-500 leading-relaxed group-hover:text-gray-700 transition-colors">
                     {food.description}

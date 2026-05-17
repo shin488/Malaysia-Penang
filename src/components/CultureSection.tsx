@@ -6,13 +6,13 @@ const cultureItems = [
   {
     title: "ジョージタウン世界遺産地区",
     subtitle: "George Town UNESCO Site",
-    desc: "2008年に登録された世界遺産。19世紀のショップハウスが立ち並び、中国系祠堂、イスラム寺院、ヒンドゥー寺院が混在する独特な景観は、歩くだけでタイムスリップした気分に。",
+    desc: "2008年に登録された世界遺産。19世紀のショップハウスが立ち並び、中国系祠堂（Khoo Kongsi、Cheah Kongsi）、イスラム寺院（Kapitan Keling Mosque）、ヒンドゥー寺院（Sri Mahamariamman Temple）が混在する独特な景観は、歩くだけでタイムスリップした気分に。",
     image: "https://images.pexels.com/photos/6770742/pexels-photo-6770742.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop",
   },
   {
     title: "極楽寺 (Kek Lok Si)",
     subtitle: "東南アジア最大の仏教寺院",
-    desc: "丘の上にそびえ立つ壮麗な寺院。7層の仏塔と巨大な観音像が圧巻。旧正月には何万もの提灯が灯され、幻想的な光景が広がります。",
+    desc: "丘の上にそびえ立つ東南アジア最大の仏教寺院。7層の万仏塔と30mを超える観音像が圧巻。旧正月（チャイニーズニューイヤー）には何万もの提灯が灯され、幻想的な光景が広がります。場所は Air Itam。",
     image: "https://images.pexels.com/photos/36796574/pexels-photo-36796574.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop",
   },
   {

@@ -5,19 +5,19 @@ import FadeInView from "./FadeInView";
 const arts = [
   {
     title: "Children on a Bicycle",
-    desc: "ペナンで最も有名な壁画。自転車に乗った子どもたちの生き生きとした表情が、路地に命を吹き込む。",
+    desc: "リトアニア人アーティスト、アーネスト・ザカレヴィッチが2012年に描いたペナンで最も有名な壁画。自転車に乗った子どもたちの生き生きとした表情が、路地に命を吹き込む。場所は Armenian Street (Lebuh Armenian)。",
     image: "https://images.pexels.com/photos/30867351/pexels-photo-30867351.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
     accent: "bg-penang-yellow/10 border-penang-yellow/20",
   },
   {
     title: "Boy on a Chair",
-    desc: "古いショップハウスの壁に描かれた少年。椅子に立ち、何かを見つめる姿が不思議な物語を感じさせる。",
+    desc: "古いショップハウスの壁に描かれた少年。椅子に立ち、何かを見つめる姿が不思議な物語を感じさせる。同じくザカレヴィッチ作。通りすがりの地元の子どもがモデルになった逸話も。",
     image: "https://images.pexels.com/photos/12587163/pexels-photo-12587163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
     accent: "bg-penang-coral/10 border-penang-coral/20",
   },
   {
     title: "Wire Mural & Hidden Art",
-    desc: "壁画だけでなく、鉄線アートも街の至る所に。路地裏の細道を入ると、思いがけないアートに出会える。",
+    desc: "壁画だけでなく、地元アーティストの鉄線アートも街の至る所に。Sculpture At Work というプロジェクトが生み出した作品群は、路地裏の細道を入った先で思いがけず出会える。",
     image: "https://images.pexels.com/photos/35222171/pexels-photo-35222171.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
     accent: "bg-penang-green/10 border-penang-green/20",
   },

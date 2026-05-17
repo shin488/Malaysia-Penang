@@ -23,8 +23,8 @@ const markers: MarkerData[] = [
   { pos: [5.4138, 100.3310], title: "Children on a Bicycle", desc: "ペナン有名壁画", color: "#f5c842" },
   { pos: [5.4145, 100.3340], title: "Boy on a Chair", desc: "ストリートアート", color: "#f5c842" },
   { pos: [5.4130, 100.3360], title: "Wire Murals", desc: "鉄線アート", color: "#f5c842" },
-  { pos: [5.4142, 100.3290], title: "屋台街", desc: "Char Koay Teow・Assam Laksa", color: "#ff8e8e" },
-  { pos: [5.4100, 100.3360], title: "屋台街 (Little India)", desc: "Nasi Kandar・Roti Canai", color: "#ff8e8e" },
+  { pos: [5.4142, 100.3290], title: "屋台街", desc: "Lorong Selamat の Char Koay Teow", color: "#ff8e8e" },
+  { pos: [5.4100, 100.3360], title: "Line Clear Nasi Kandar", desc: "ペナンで最も有名なナシカンダ", color: "#ff8e8e" },
 ];
 
 function createIcon(color: string) {

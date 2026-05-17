@@ -54,8 +54,8 @@ export default function AboutSection() {
             </h2>
             <div className="space-y-5 text-gray-600 leading-relaxed">
               <p className="text-base md:text-lg">
-                マレーシア半島西岸に浮かぶペナン島。18世紀末からイギリス植民地として栄え、
-                マレー系、中国系、インド系の文化が絶妙に混ざり合う、世界でも類を見ない多文化都市です。
+                マレーシア半島西岸に浮かぶペナン島。1786年にイギリス東インド会社のフランシス・ライトが植民地を開き、
+                マレー系、中国系、インド系の文化が絶妙に混ざり合う、世界でも類を見ない多文化都市へと育ちました。
               </p>
               <div className="border-l-4 border-gradient-to-b from-penang-yellow to-penang-coral pl-4 py-1">
                 <p className="italic text-gray-500 text-sm">
@@ -65,10 +65,12 @@ export default function AboutSection() {
               <p>
                 首都ジョージタウンは2008年にユネスコ世界遺産に登録され、
                 カラフルなショップハウス、ストリートアート、そして東南アジア随一の屋台文化が息づいています。
+                地元の人々は「ペナンには美味いものしかない」と誇らしげに語ります。
               </p>
               <p>
-                ビーチリゾートとしての顔も持ち、初心者から旅慣れた人まで、
-                誰もが夢中になる魅力にあふれた島。それがペナンです。
+                週末にはジョージタウンの路地がコンジキ（テーブル出店）で埋め尽くされ、
+                ビーチエリアのバトゥ・フェリンギではナイトマーケットが灯りをともす。
+                初心者から旅慣れた人まで、誰もが夢中になる魅力にあふれた島。それがペナンです。
               </p>
             </div>
           </FadeInView>
