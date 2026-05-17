@@ -5,6 +5,7 @@ import ArtSection from "@/components/ArtSection";
 import CultureSection from "@/components/CultureSection";
 import NatureSection from "@/components/NatureSection";
 import GallerySection from "@/components/GallerySection";
+import MapSection from "@/components/MapSection";
 import TipsSection from "@/components/TipsSection";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <CultureSection />
       <NatureSection />
       <GallerySection />
+      <MapSection />
       <TipsSection />
     </>
   );

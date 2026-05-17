@@ -9,6 +9,7 @@ const navItems = [
   { label: "Culture", href: "#culture" },
   { label: "Nature", href: "#nature" },
   { label: "Gallery", href: "#gallery" },
+  { label: "Map", href: "#map" },
   { label: "Tips", href: "#tips" },
 ];
 

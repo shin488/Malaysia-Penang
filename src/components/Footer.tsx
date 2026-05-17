@@ -21,7 +21,7 @@ export default function Footer() {
               Navigate
             </h4>
             <ul className="space-y-2.5 text-sm text-gray-500">
-              {["About", "Food", "Art", "Culture", "Nature", "Gallery", "Tips"].map(
+              {["About", "Food", "Art", "Culture", "Nature", "Gallery", "Map", "Tips"].map(
                 (item) => (
                   <li key={item}>
                     <a
