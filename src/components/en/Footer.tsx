@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="text-penang-coral">Penang</span> Island
             </h3>
             <p className="text-gray-500 text-sm leading-relaxed mb-4">
-              Pulau Pinang — マレーシア半島西岸に浮かぶ、多文化が織りなす楽園の島。
+              Pulau Pinang — a tropical paradise off the west coast of Peninsular Malaysia, where cultures intertwine.
             </p>
             <div className="flex gap-2">
               <span className="text-xs bg-white/5 px-2.5 py-1 rounded-md text-gray-400">🇲🇾 Malaysia</span>
@@ -42,10 +42,10 @@ export default function Footer() {
               Malay Phrases
             </h4>
             <ul className="space-y-2.5 text-sm text-gray-500">
-              <li><span className="text-penang-yellow">Selamat Datang</span> — ようこそ</li>
-              <li><span className="text-penang-yellow">Terima Kasih</span> — ありがとう</li>
-              <li><span className="text-penang-yellow">Selamat Makan</span> — いただきます</li>
-              <li><span className="text-penang-yellow">Lepak</span> — のんびりする</li>
+              <li><span className="text-penang-yellow">Selamat Datang</span> — Welcome</li>
+              <li><span className="text-penang-yellow">Terima Kasih</span> — Thank you</li>
+              <li><span className="text-penang-yellow">Selamat Makan</span> — Enjoy your meal</li>
+              <li><span className="text-penang-yellow">Lepak</span> — Chill out</li>
             </ul>
           </div>
           <div>
@@ -53,13 +53,13 @@ export default function Footer() {
               Language
             </h4>
             <p className="text-gray-500 text-sm leading-relaxed mb-4">
-              このサイトを別の言語で表示
+              View this site in another language
             </p>
             <Link
-              href="/en"
+              href="/"
               className="text-xs bg-white/5 px-3 py-1.5 rounded-lg hover:bg-penang-coral/20 hover:text-white transition-all duration-300 cursor-pointer text-gray-400 inline-block"
             >
-              🇺🇸 English Version
+              🇯🇵 Japanese Version
             </Link>
           </div>
         </div>

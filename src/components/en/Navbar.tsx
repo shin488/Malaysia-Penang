@@ -73,17 +73,17 @@ export default function Navbar() {
               </a>
             ))}
             <Link
-              href="/en"
+              href="/"
               className="text-xs font-medium px-3 py-1.5 rounded-full border border-white/30 text-white/80 hover:bg-white/10 hover:text-white transition-all"
             >
-              🇺🇸 EN
+              🇯🇵 JP
             </Link>
           </div>
 
           <button
             className="md:hidden flex flex-col gap-1.5 p-2"
             onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="メニューを開く"
+            aria-label="Toggle menu"
           >
             <span
               className={`block w-6 h-0.5 transition-all duration-300 ${
@@ -117,11 +117,11 @@ export default function Navbar() {
                 </a>
               ))}
               <Link
-                href="/en"
+                href="/"
                 className="text-sm font-medium text-penang-coral hover:bg-penang-coral/5 px-4 py-3 rounded-lg transition-all border-t border-gray-100 mt-1"
                 onClick={() => setMenuOpen(false)}
               >
-                🇺🇸 English Version
+                🇯🇵 Japanese Version
               </Link>
             </div>
           </div>
