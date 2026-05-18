@@ -13,13 +13,13 @@ const cultureItems = [
     title: "極楽寺 (Kek Lok Si)",
     subtitle: "東南アジア最大の仏教寺院",
     desc: "丘の上にそびえ立つ東南アジア最大の仏教寺院。7層の万仏塔と30mを超える観音像が圧巻。旧正月（チャイニーズニューイヤー）には何万もの提灯が灯され、幻想的な光景が広がります。場所は Air Itam。",
-    image: "https://images.pexels.com/photos/36796574/pexels-photo-36796574.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop",
+    image: "https://images.pexels.com/photos/10897082/pexels-photo-10897082.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop",
   },
   {
     title: "ペナン・ペラナカン・マンション",
     subtitle: "Pinang Peranakan Mansion",
     desc: "華人とマレー人の融合文化「ババ・ニョニャ」の暮らしを体感できる博物館。金ぴかの調度品と繊細な工芸品の美しさに息を飲む。",
-    image: "https://images.pexels.com/photos/17168624/pexels-photo-17168624.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/68/Penang_Peranakan_Mansion_by_C.W._Tan_01.jpg",
   },
   {
     title: "リトル・インディア & チャイナタウン",
