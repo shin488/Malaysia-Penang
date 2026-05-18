@@ -76,7 +76,7 @@ export default function Navbar() {
               href="/en"
               className="text-xs font-medium px-3 py-1.5 rounded-full border border-white/30 text-white/80 hover:bg-white/10 hover:text-white transition-all"
             >
-              🇺🇸 EN
+              English
             </Link>
           </div>
 
