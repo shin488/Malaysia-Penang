@@ -59,6 +59,14 @@ const tips = [
       "「Terima Kasih」を覚えよう",
     ],
   },
+  {
+    icon: "👣",
+    title: "現地からのアドバイス",
+    items: [
+      "歩道脇の側溝が深いので足元注意！うっかり落ちると結構危ない",
+      "暗くなってからのジョージタウン単独行動は避けて—スリ注意",
+    ],
+  },
 ];
 
 export default function TipsSection() {

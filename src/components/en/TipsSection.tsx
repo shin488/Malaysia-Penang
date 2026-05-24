@@ -59,6 +59,14 @@ const tips = [
       "Learn \"Terima Kasih\" (thank you) — locals appreciate it",
     ],
   },
+  {
+    icon: "👣",
+    title: "Local Advice",
+    items: [
+      "Watch your step — the roadside drains are surprisingly deep",
+      "Avoid walking alone in George Town after dark — pickpockets are a concern",
+    ],
+  },
 ];
 
 export default function TipsSection() {

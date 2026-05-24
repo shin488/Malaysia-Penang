@@ -55,6 +55,38 @@ const foods = [
     place: "Transfer Road",
     image: pexelUrl(37555450),
   },
+  {
+    name: "Tomato Egg Stir-fry",
+    subtitle: "番茄炒蛋",
+    description:
+      "個人的イチオシ！甘酸っぱいトマトのうまみととろとろの卵が絡んでご飯が止まらなくなる。中華の家庭料理だけど、ペナンのコピティアムで食べると格別。シンプルなのに病みつきになる味。",
+    place: "街中のコピティアムで",
+    image: pexelUrl(12145329),
+  },
+  {
+    name: "Koei Tew Kung Fue",
+    subtitle: "粿条工法",
+    description:
+      "観光客にはあまり知られていないけど、地元で愛される一品。もっちりした平打ち麺とシャキシャキ野菜の食感が最高。タレが絡んだ麺がとにかく癖になる。",
+    place: "ジョージタウンの屋台",
+    image: pexelUrl(8983416),
+  },
+  {
+    name: "Dim Sum",
+    subtitle: "点心",
+    description:
+      "エビ好きにはたまらない！いろんな種類があるけど、私はエビ餃子（ハーカウ）が一番好き。皮がもちっとしていて中のエビがぷりぷり。週末の朝に家族連れで賑わう点心店の活気もまたいい。",
+    place: "George Town 点心店",
+    image: pexelUrl(7394719),
+  },
+  {
+    name: "Coconut Shake",
+    subtitle: "ココナッツシェイク",
+    description:
+      "ペナンの暑さにこれ以上ないくらいの一杯！フレッシュなココナッツの果肉とミルク、氷をブレンドしたシェイクは自然な甘さでめちゃくちゃ飲みやすい。バトゥ・フェリンギのビーチで夕日を見ながら飲むのが最高。",
+    place: "Batu Ferringhi ビーチ沿い",
+    image: pexelUrl(3186641),
+  },
 ];
 
 export default function FoodSection() {

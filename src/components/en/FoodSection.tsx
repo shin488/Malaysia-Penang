@@ -55,6 +55,38 @@ const foods = [
     place: "Transfer Road",
     image: pexelUrl(37555450),
   },
+  {
+    name: "Tomato Egg Stir-fry",
+    subtitle: "番茄炒蛋 (Fānqié Chǎo Dàn)",
+    description:
+      "A personal favorite! Sweet-and-sour tomatoes pair perfectly with silky scrambled eggs — simple but incredibly addictive. A classic Chinese home-cooked dish, but somehow tastes extra special at a Penang kopitiam. Best enjoyed over steamed rice.",
+    place: "At any local kopitiam",
+    image: pexelUrl(12145329),
+  },
+  {
+    name: "Koei Tew Kung Fue",
+    subtitle: "粿条工法",
+    description:
+      "Not well-known among tourists, but a local treasure. Chewy flat rice noodle sheets stir-fried with crunchy vegetables in a savory sauce. The texture contrast is incredible — soft, sticky noodles with crisp veggies in every bite.",
+    place: "Hawker stalls in George Town",
+    image: pexelUrl(8983416),
+  },
+  {
+    name: "Dim Sum",
+    subtitle: "点心 (Diǎnxīn)",
+    description:
+      "A paradise for shrimp lovers! There are so many varieties, but my favorite is har gow (shrimp dumplings) — translucent chewy wrappers filled with juicy whole prawns. Weekend mornings at a bustling dim sum restaurant is a Penang ritual not to miss.",
+    place: "Dim sum restaurants in George Town",
+    image: pexelUrl(7394719),
+  },
+  {
+    name: "Coconut Shake",
+    subtitle: "Coconut Shake",
+    description:
+      "The ultimate thirst-quencher in Penang&apos;s tropical heat! Fresh coconut meat blended with coconut milk and ice — naturally sweet and incredibly refreshing. Best enjoyed at a beach stall in Batu Ferringhi while watching the sunset.",
+    place: "Batu Ferringhi beachside stalls",
+    image: pexelUrl(3186641),
+  },
 ];
 
 export default function FoodSection() {
